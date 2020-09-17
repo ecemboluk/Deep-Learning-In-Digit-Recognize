@@ -8,7 +8,7 @@ import numpy as np
 import base64
 import re
 
-model = load_model('/Users/ecem/Desktop/drawnumber/drawnumber/digit_model.h5')
+model = load_model('/Users/ecem/Desktop/Deep-Learning-In-Digit-Recognize/drawnumber/digit_model.h5')
 
 def home_page(request):
     return render(request, 'home_page.html')
