@@ -79,5 +79,5 @@ urllib3==1.25.10
 wcwidth==0.2.5
 Werkzeug==1.0.1
 whitenoise==5.2.0
-wrapt==1.12.1
+wrapt==1.11.1
 yarg==0.1.9
