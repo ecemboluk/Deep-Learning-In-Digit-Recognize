@@ -1,0 +1,1 @@
+web: gunicorn drawnumber.wsgi --log-file -

@@ -1,0 +1,23 @@
+{% load static %}
+
+<html>
+    <head>        
+        <title>Deep Learning In Digit Recognizer</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="{% static 'javascript/drawing.js' %}"></script>
+        {% block js %}{% endblock %}
+    </head>
+    <body>
+        <h1 class="title">Deep Learning In Digit Recognize Dataset</h1>
+        <div id="frame">
+            <canvas id="paint"></canvas>
+        </div>
+        <div id="predict">
+            <h1 id="number"></h1>
+        </div>
+        <button type="button" id="c_button" class="btn btn-success">Temizle</button>
+    </body>
+</html>
