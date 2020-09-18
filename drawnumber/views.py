@@ -8,7 +8,7 @@ import numpy as np
 import base64
 import re
 
-model = load_model('digit_model.h5')
+model = load_model('drawnumber/digit_model.h5')
 
 def home_page(request):
     return render(request, 'home_page.html')
